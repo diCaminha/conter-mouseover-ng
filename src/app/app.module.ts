@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CounterhoverDirective } from './directives/counterhover.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterhoverDirective
   ],
   imports: [
     BrowserModule,
