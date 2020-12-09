@@ -3,7 +3,20 @@
     margin: 10px;
   }
   
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  .example-header-image-1 {
+    background-image: url('https://www.hypeness.com.br/1/2019/10/Hamilton_F1_Ambiental_3.jpg');
     background-size: cover;
   }
+
+  .example-header-image-2 {
+    background-image: url('https://cdn-2.motorsport.com/images/mgl/6zQr7vLY/s8/lando-norris-mclaren-1.jpg');
+    background-size: cover;
+  }
+
+  .example-header-image-3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/96/F12019_Schloss_Gabelhofen_%2818%29.jpg');
+    background-size: cover;
+  }
+
+
+  
