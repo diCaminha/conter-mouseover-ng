@@ -17,7 +17,7 @@ export class CounterhoverDirective {
   cardId: Number;
 
   @Output()
-  mouseoverCounter = new EventEmitter();
+  onMouseOver = new EventEmitter();
 
   lastId: Number;
 
@@ -32,9 +32,8 @@ export class CounterhoverDirective {
   mouseOver($event) {
     this.isHover = true;
     if (this.lastId != this.cardId) {
-      console.log(this.cardId);
       this.lastId = this.cardId;
-      this.mouseoverCounter.emit();
+      this.onMouseOver.emit(this.cardId);
     }
   }
 
