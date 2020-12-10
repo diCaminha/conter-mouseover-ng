@@ -1,7 +1,7 @@
 <div fxLayout="row" fxLayoutAlign="center center">
   <div>
-    <p>Hover: 0</p>
-    <mat-card appCounterhover="1" class="example-card">
+    <p>Hover: {{counter1}}</p>
+    <mat-card appCounterhover="1" (onMouseOver)="incMouseoverCounter($event)" class="example-card">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image-1"></div>
         <mat-card-title>Lewis Hamilton</mat-card-title>
@@ -19,8 +19,8 @@
     </mat-card>
   </div>
   <div>
-    <p>Hover: 0</p>
-    <mat-card appCounterhover="2" class="example-card">
+    <p>Hover: {{counter2}}</p>
+    <mat-card appCounterhover="2" (onMouseOver)="incMouseoverCounter($event)" class="example-card">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image-2"></div>
         <mat-card-title>Lando Norris</mat-card-title>
@@ -38,8 +38,8 @@
     </mat-card>
   </div>
   <div>
-    <p>Hover: 0</p>
-    <mat-card appCounterhover="3" class="example-card">
+    <p>Hover: {{counter3}}</p>
+    <mat-card appCounterhover="3" (onMouseOver)="incMouseoverCounter($event)" class="example-card">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image-3"></div>
         <mat-card-title>Daniel Ricciardo</mat-card-title>
